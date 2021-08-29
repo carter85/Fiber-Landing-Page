@@ -14,17 +14,82 @@
   </head>
   <body>
 <!-- Navigation Section -->
-<nav id="navWrapper" class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div id="navmain" class="container-fluid">
-        <div id="" class="nav-item"><a href="#" id="navBrand" class="navbar-brand nav-link">Fiber      </a></div>
-        <div id="" class="nav-item"><a href="#" class="nav-link">Community    </a></div>
-        <div id="" class="nav-item"><a href="#" class="nav-link">Pricing      </a></div>
-        <div id="" class="nav-item"><a href="#" class="nav-link">Features     </a></div>
-        <div id="" class="nav-item"><a href="#" class="nav-link">Sign In      </a></div>
-        <div id="" class="nav-item"><a href="#" class="nav-link"><button>Sign Up</button></a></div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid bb">
+        <a href="#" class="navbar-brand">Fiber   </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div id="navbarContent" class="collapse navbar-collapse">  <!-- holds content to hide when resized -->
+            <div class="navbar-nav me-auto mb-2 mb-lg-0 bg justify-content-around d-flex container">
+                <!-- <div id="navMid" class=""> -->
+                   <span id="" class="nav-item">
+                        <a href="#" class="nav-link br">Community  </a>
+                   </span>
+                   <span id="" class="nav-item">
+                        <a href="#" class="nav-link br">Pricing    </a>
+                   </span>
+                   <span id="" class="nav-item">
+                        <a href="#" class="nav-link br">Features   </a>
+                   </span>
+                <!-- </div> -->
+                   
+                    <!-- <div id="navRight" class=""> -->
+                        <span id="" class="nav-item br">
+                            <a href="#" class="nav-link">Sign In    </a>
+                        </span>
+                        <span id="" class="nav-item br">
+                            <a href="#" class="nav-link"><button>Sign Up</button></a>
+                        </span>
+                    <!-- </div> -->
+                
+            </div>
+        </div>
+
     </div>
 </nav>
 
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 <!-- Hero Section -->
 <div id="heroWrapper">
     <div id="heroMain">
