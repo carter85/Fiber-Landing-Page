@@ -14,98 +14,72 @@
   </head>
   <body>
 <!-- Navigation Section -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid bb">
+<!-- TODO 
+    finish spacing
+    finish cosmetics
+-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light bw">
+    <div class="container-fluid br d-flex">
         <a href="#" class="navbar-brand">Fiber   </a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon br"></span>
           </button>
 
-          <div id="navbarContent" class="collapse navbar-collapse">  <!-- holds content to hide when resized -->
-            <div class="navbar-nav me-auto mb-2 mb-lg-0 bg justify-content-around d-flex container">
-                <!-- <div id="navMid" class=""> -->
-                   <span id="" class="nav-item">
-                        <a href="#" class="nav-link br">Community  </a>
-                   </span>
-                   <span id="" class="nav-item">
-                        <a href="#" class="nav-link br">Pricing    </a>
-                   </span>
-                   <span id="" class="nav-item">
-                        <a href="#" class="nav-link br">Features   </a>
-                   </span>
+          <div id="navbarContent" class="collapse navbar-collapse">
+            <div class="navbar-nav container">
+
+                <!-- <div id="navMid" class="navbar-nav"> -->
+                   <span id="" class="nav-item"><a href="#" class="nav-link bb">Community  </a></span>
+                   <span id="" class="nav-item"><a href="#" class="nav-link bb">Pricing    </a></span>
+                   <span id="" class="nav-item"><a href="#" class="nav-link bb">Features   </a></span>
                 <!-- </div> -->
                    
-                    <!-- <div id="navRight" class=""> -->
-                        <span id="" class="nav-item br">
-                            <a href="#" class="nav-link">Sign In    </a>
-                        </span>
-                        <span id="" class="nav-item br">
-                            <a href="#" class="nav-link"><button>Sign Up</button></a>
-                        </span>
-                    <!-- </div> -->
-                
+                <!-- <div id="navRight" class="d-flex navbar-nav"> -->
+                    <span id="" class="nav-item"><a href="#" class="nav-link bb">Sign In    </a></span>
+                    <span id="" class="nav-item"><a href="#" class="nav-link bb"><button>Sign Up</button></a></span>
+                <!-- </div> -->
+
             </div>
         </div>
-
     </div>
 </nav>
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
 
-       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> 
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
 <!-- Hero Section -->
-<div id="heroWrapper">
-    <div id="heroMain">
-        <div id="navLeft">
-            <div id="rated">        </div>
-            <div id="createPort">   </div>
-            <div id="setup">        </div>
-            <div id="trial">        </div>
-            <div id="examples">     </div>
-            <div id="credit">       </div>
-            <div id="freeTemplate"> </div>
+<div id="heroWrapper" class="by p-5">
+    <div id="heroMain br" class="d-flex py-5">
+        <div id="heroLeft" class="col-lg-6 my-auto bw">
+            <div id="heroLeftInner" class="bg d-flex flex-column my-auto p-2">
+                <div id="rated" class="d-flex bb">
+                    <div id="starCont" class="bw">
+                        <img src="Assets/star.svg" class="bb" alt=""><img src="Assets/star.svg" alt=""><img src="Assets/star.svg" alt=""><img src="Assets/star.svg" alt=""><img src="Assets/star.svg" alt="">
+                    </div>
+                    <div id="ratedCont">Rated 4.8/5 (243 reviews)</div>
+                </div>
+                <div id="createPortCont" class="bb py-2">
+                    <h1><strong>Create your portfolio in minutes.</strong></h1>
+                </div>
+                <div id="setupCont" class="bb">
+                    <p>With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates.</p>
+                </div>
+                <div id="trialCont" class="d-flex">
+                    <button id="trialButton" class="btn btn-primary">Start Free Trial</button>
+                    <div id="examplesCont" class="p-1"><a href="#">View Examples</a>     </div>
+                </div>
+                <div id="checkmarkCont" class="d-flex bb">
+                    <div id="credit" class="d-flex bg"><img src="Assets/Checkmark.svg" class="bb my-auto" alt=""><p class="bb my-auto">No Credit Card Required</p></div>
+                    <div id="freeTemplate" class="d-flex"><img src="Assets/Checkmark.svg" class="bb my-auto" alt=""><p class="bb my-auto">10 Free Templates</p></div>
+                </div>
+            </div>
         </div>
 
 
-        <div id="navRight">
-            <div id="heroImg"></div>
+        <div id="heroRight" class="br col-lg-6">
+            <div id="heroImgCont">
+                <img class="img-fluid" src="Assets/hero-Illustration.png" alt="">
+            </div>
         </div>
     </div>
 </div>

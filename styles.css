@@ -13,3 +13,13 @@
 .bg {
     border: 3px solid green;
 }
+.bg-bb {
+    background-color: cornflowerblue;
+}
+
+
+/* Primary CSS */
+#trialButton {
+    background-color: blueviolet;
+    color: white;
+}
