@@ -23,3 +23,23 @@
     background-color: blueviolet;
     color: white;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+    #ratedCont, #starCont {
+        display: none;
+    }
+    #heroMain {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #trialCont {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    #trialButton {
+        width: auto;
+    }
+}
