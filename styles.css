@@ -35,8 +35,22 @@
         flex-direction: column-reverse !important;
         padding: 0px !important;
     }
-    #heroLeftInner, #heroWrapper {
+    #heroWrapper {
         padding: 0px !important;
+    }
+    #heroLeftInner {
+        padding: 2px !important;
+    }
+    #trialCont {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #checkmarkCont {
+        justify-content: space-around;
+    }
+    #heroAd {
+        padding: 0px 20px !important;
     }
     #trialCont, #whyElements, #checkmarkCont {
         display: flex;
