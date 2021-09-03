@@ -52,6 +52,12 @@
     #heroAd {
         padding: 0px 20px !important;
     }
+    #navMid {
+        margin: 0px !important;
+    }
+    #navBrand {
+        display: flex !important;
+    }
     #trialCont, #whyElements, #checkmarkCont {
         display: flex;
         flex-direction: column !important;
