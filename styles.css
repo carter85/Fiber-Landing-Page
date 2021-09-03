@@ -32,11 +32,15 @@
     }
     #heroMain {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
+        padding: 0px !important;
     }
-    #trialCont {
+    #heroLeftInner, #heroWrapper {
+        padding: 0px !important;
+    }
+    #trialCont, #whyElements, #checkmarkCont {
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         margin: auto;
     }
     #trialButton {
