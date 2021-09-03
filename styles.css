@@ -1,3 +1,7 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
 .bb {
     border: 2px solid blue;
 }
@@ -62,8 +66,51 @@
         display: flex;
         flex-direction: column !important;
         margin: auto;
+        max-width: 400px;
+        border: 2px solid greenyellow;
     }
+    #whyHeader {
+        display: flex;
+        flex-direction: column !important;
+        margin: auto;
+        max-width: 400px;
+    }
+    #diversifyMain {
+        display: flex;
+        flex-direction: column !important;
+        margin: auto;
+        padding: 0px !important;
+    }
+    #reviewInner {
+        display: flex;
+        flex-direction: column !important;
+        margin: auto;
+        padding: 0px !important;
+        /* align-items: center; */
+    }
+    #diversifyLeft {
+        padding: 0px !important;
+        padding-top: 30px !important;
+    }
+    
+
     #trialButton {
         width: auto;
     }
+}
+
+.bgPurp {
+    background-color: #4d13d1;
+}
+.bgBeige {
+    background-color: #fbf8f3;
+
+}
+#diversifyMain {
+    color: white;
+    border-radius: 10px;
+}
+#diversifyMain button {
+    color: #4d13d1;
+    background-color: white;
 }
