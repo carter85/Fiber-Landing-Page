@@ -139,3 +139,13 @@ body {
 #carouselCont {
     width: 75vw;
 }
+.fontCol2 {
+    color: #4f4f4f;
+}
+#buildCont div, #customCont div, #respCont div, #setupCont p, .checkmarkCont div p {
+    color: #4f4f4f;
+}
+#footCont li a, #footCont li p {
+    color: #4f4f4f;
+    text-decoration: none;
+}
