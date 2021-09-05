@@ -117,3 +117,10 @@ body {
     color: #4d13d1;
     background-color: white;
 }
+.nav-item a {
+    color: black !important;
+}
+#navBtn {
+    color: white;
+    background-color: #4d13d1;
+}
