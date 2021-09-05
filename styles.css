@@ -132,3 +132,7 @@ body {
 #whyHeader p {
     color: #4d13d1;
 }
+.revBorder {
+    border: 2px solid #dadada;
+    border-radius: 5px;
+}
