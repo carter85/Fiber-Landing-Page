@@ -126,13 +126,16 @@ body {
     color: white;
     background-color: #4d13d1;
 }
-#examplesCont a {
-    color: #4d13d1;
-}
-#whyHeader p {
+#examplesCont a, #whyHeader p, .revName, .revBtn {
     color: #4d13d1;
 }
 .revBorder {
     border: 2px solid #dadada;
     border-radius: 5px;
+}
+.revBtnCont {
+    width: 100%;
+}
+#carouselCont {
+    width: 75vw;
 }

@@ -114,7 +114,7 @@
 </div>
 
 <!-- Diversify Section -->
-<div id="diversifyCont" class="p-2">
+<div id="diversifyCont" class="p-2 pb-5">
     <div id="diversifyMain" class="container d-flex bgPurp pt-3 pe-5 align-items-center col-10">
         <div id="diversifyLeft" class="col-6 p-5 my-auto">
             <div id="diversifyLeftHeader" class=""><h1>Diversify your portfolio.</h1></div>
@@ -134,45 +134,116 @@
 <div id="reviewWrapper">
     <div id="reviewMain" class="d-flex col-10 mx-auto">
         <div id="reviewInner" class="d-flex align-items-center">
-            
+
             <div id="reviewSar" class="col-4 revBorder p-3">
                 <div class="cardTop  d-flex">
                     <div class="face "><img src="Assets/User Avatar.svg" alt=""></div>
                         <div class="container">
-                        <div class="">Sarah Andrews</div>
+                        <div class="revName"><strong>Sarah Andrews</strong></div>
                         <div class="">$100k in revenue</div>
                     </div>
                 </div>
                 <div class="cardBottom">Setting up my portfolio with Fiber took no more than 10 minutes. Since then, my portfolio has attracted a lot of clients and made me more than $100k.</div>
-                <button class="btn revBorder">View Sarah's Portfolio</button>
+                <div class="revBtnCont justify-content-center d-flex revBorder">
+                    <button class="btn revBtn d-flex"><strong>View Sarah's Portfolio</strong></button>
+                </div>
             </div>
 
             <div id="reviewMatt" class="col-4 p-3 revBorder">
                 <div class="cardTop  d-flex">
                     <div class="face "><img src="Assets/User Avatar 2.svg" alt=""></div>
                         <div class="container">
-                        <div class="">Mathew Higgins</div>
+                        <div class="revName"><strong>Mathew Higgins</strong></div>
                         <div class="">$20k in revenue</div>
                     </div>
                 </div>
                 <div class="cardBottom">I have been getting A LOT of leads ever since I used Fiber's premade templates, now I just need to work on my case studies and I'll be ready to go!</div>
-                <button class="btn revBorder">View Mathew's Portfolio</button>
+                <div class="revBtnCont  revBorder justify-content-center d-flex">
+                    <button class="btn revBtn"><strong>View Mathew's Portfolio</strong></button>
+                </div>
             </div>
 
             <div id="reviewJan" class="col-4 p-3 revBorder">
                 <div class="cardTop d-flex">
                     <div class="face "><img src="Assets/User Avatar 32.svg" alt=""></div>
                         <div class="container">
-                        <div class="">Janice Dave</div>
+                        <div class="revName"><strong>Janice Dave</strong></div>
                         <div class="">$30k in revenue</div>
                     </div>
                 </div>
                 <div class="cardBottom">I only just started freelancing this year and I have already made more than I ever made in my full-time job. The templates are just as amazing.</div>
-                <button class="btn bg revBorder">View Janice's Portfolio</button>
+                <div class="revBtnCont  revBorder justify-content-center d-flex">
+                    <button class="btn revBtn"><strong>View Janice's Portfolio</strong></button>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+  <div id="carouselExampleIndicators" class="carousel bb  slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner bw d-flex justify-content-center carouselCont">
+      <div class="carousel-item active">
+        <div id="reviewSar" class="col-4 revBorder p-3">
+            <div class="cardTop  d-flex">
+                <div class="face "><img src="Assets/User Avatar.svg" alt=""></div>
+                    <div class="container">
+                    <div class="revName"><strong>Sarah Andrews</strong></div>
+                    <div class="">$100k in revenue</div>
+                </div>
+            </div>
+            <div class="cardBottom">Setting up my portfolio with Fiber took no more than 10 minutes. Since then, my portfolio has attracted a lot of clients and made me more than $100k.</div>
+            <div class="revBtnCont justify-content-center d-flex revBorder">
+                <button class="btn revBtn d-flex"><strong>View Sarah's Portfolio</strong></button>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div id="reviewMatt" class="col-4 p-3 revBorder">
+            <div class="cardTop  d-flex">
+                <div class="face "><img src="Assets/User Avatar 2.svg" alt=""></div>
+                    <div class="container">
+                    <div class="revName"><strong>Mathew Higgins</strong></div>
+                    <div class="">$20k in revenue</div>
+                </div>
+            </div>
+            <div class="cardBottom">I have been getting A LOT of leads ever since I used Fiber's premade templates, now I just need to work on my case studies and I'll be ready to go!</div>
+            <div class="revBtnCont  revBorder justify-content-center d-flex">
+                <button class="btn revBtn"><strong>View Mathew's Portfolio</strong></button>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div id="reviewJan" class="col-4 p-3 revBorder">
+            <div class="cardTop d-flex">
+                <div class="face "><img src="Assets/User Avatar 32.svg" alt=""></div>
+                    <div class="container">
+                    <div class="revName"><strong>Janice Dave</strong></div>
+                    <div class="">$30k in revenue</div>
+                </div>
+            </div>
+            <div class="cardBottom">I only just started freelancing this year and I have already made more than I ever made in my full-time job. The templates are just as amazing.</div>
+            <div class="revBtnCont  revBorder justify-content-center d-flex">
+                <button class="btn revBtn"><strong>View Janice's Portfolio</strong></button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
 
 <!-- Footer Section -->
 
