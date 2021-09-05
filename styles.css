@@ -98,6 +98,9 @@ body {
         width: auto;
     }
 }
+.cardBottom {
+    height: 100px;
+}
 
 .bgPurp {
     background-color: #4d13d1;
