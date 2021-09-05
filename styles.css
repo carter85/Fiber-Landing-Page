@@ -92,7 +92,9 @@ body {
         padding: 0px !important;
         padding-top: 30px !important;
     }
-    
+    #navRight #trialButton {
+        width: 90px;
+    }
 
     #trialButton {
         width: auto;
@@ -123,4 +125,10 @@ body {
 #navBtn {
     color: white;
     background-color: #4d13d1;
+}
+#examplesCont a {
+    color: #4d13d1;
+}
+#whyHeader p {
+    color: #4d13d1;
 }
